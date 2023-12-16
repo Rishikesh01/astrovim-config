@@ -2,7 +2,9 @@ return {
   -- Add the community repository of plugin specifications
   "AstroNvim/astrocommunity",
  { import = "astrocommunity.pack.go" },
-  -- example of imporing a plugin, comment out to use it or add your own
+ {import = "astrocommunity.pack.rust"},
+ {import = "astrocommunity.color.transparent-nvim"}  
+ -- example of imporing a plugin, comment out to use it or add your own
   -- available plugins can be found at https://github.com/AstroNvim/astrocommunity
 
   -- { import = "astrocommunity.colorscheme.catppuccin" },
